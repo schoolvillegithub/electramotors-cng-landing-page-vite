@@ -167,12 +167,15 @@ const Training = () => {
                                 <p className="text-start text-[16px] md:text-[24px]">₦150,000</p>
                             </td>
                             <td className='px-3'>
-                                <button className="font-primary text-[12px] md:text-[18px] text-white font-semibold bg-[#002748] rounded-lg 
-                                cursor-pointer w-[80px] h-[30px] md:w-[89px] md:h-[40px] hover:bg-[#2FEAE4]
-                                hover:border-[3px] hover:border-[#002748] hover:text-[#002748] hover:shadow-lg
-                                transition-transform-y duration-500 hover:scale-105">
-                                    Enroll
-                                </button>
+                                <a href="https://schoolville.com/courses/basic-cng-installation" 
+                                target="_blank" rel="noopener noreferrer">
+                                    <button className="font-primary text-[12px] md:text-[18px] text-white font-semibold bg-[#002748] rounded-lg 
+                                    cursor-pointer w-[80px] h-[30px] md:w-[89px] md:h-[40px] hover:bg-[#2FEAE4]
+                                    hover:border-[3px] hover:border-[#002748] hover:text-[#002748] hover:shadow-lg
+                                    transition-transform-y duration-500 hover:scale-105">
+                                        Enroll
+                                    </button>
+                                </a>
                             </td>
                         </tr>
                         <tr className='font-semibold'>
@@ -186,12 +189,15 @@ const Training = () => {
                                 <p className="text-start text-[16px] md:text-[24px]">₦200,000</p>
                             </td>
                             <td className='px-3'>
-                                <button className="font-primary text-[12px] md:text-[18px] text-white font-semibold bg-[#002748] rounded-lg 
-                                cursor-pointer w-[80px] h-[30px] md:w-[89px] md:h-[40px] hover:bg-[#2FEAE4]
-                                hover:border-[3px] hover:border-[#002748] hover:text-[#002748] hover:shadow-lg
-                                transition-transform-y duration-500 hover:scale-105">
-                                    Enroll
-                                </button>
+                                <a href="https://schoolville.com/courses/cng-advanced-conversion-tuning" 
+                                target="_blank" rel="noopener noreferrer">
+                                    <button className="font-primary text-[12px] md:text-[18px] text-white font-semibold bg-[#002748] 
+                                    rounded-lg cursor-pointer w-[80px] h-[30px] md:w-[89px] md:h-[40px] hover:bg-[#2FEAE4]
+                                    hover:border-[3px] hover:border-[#002748] hover:text-[#002748] hover:shadow-lg
+                                    transition-transform-y duration-500 hover:scale-105">
+                                        Enroll
+                                    </button>
+                                </a>
                             </td>
                         </tr>
                         <tr className='font-semibold'>
@@ -205,15 +211,18 @@ const Training = () => {
                                 <p className="text-start text-[16px] md:text-[24px]">₦300,000</p>
                             </td>
                             <td className='px-3'>
-                                <button className="font-primary text-[12px] md:text-[18px] text-white font-semibold bg-[#002748] rounded-lg 
-                                cursor-pointer w-[80px] h-[30px] md:w-[89px] md:h-[40px] hover:bg-[#2FEAE4]
-                                hover:border-[3px] hover:border-[#002748] hover:text-[#002748] hover:shadow-lg
-                                transition-transform-y duration-500 hover:scale-105">
-                                    Enroll
-                                </button>
+                                <a href="https://schoolville.com/courses/cng-station-operation-management" 
+                                target="_blank" rel="noopener noreferrer">
+                                    <button className="font-primary text-[12px] md:text-[18px] text-white font-semibold bg-[#002748] rounded-lg 
+                                    cursor-pointer w-[80px] h-[30px] md:w-[89px] md:h-[40px] hover:bg-[#2FEAE4]
+                                    hover:border-[3px] hover:border-[#002748] hover:text-[#002748] hover:shadow-lg
+                                    transition-transform-y duration-500 hover:scale-105">
+                                        Enroll
+                                    </button>
+                                </a>
                             </td>
                         </tr>
-                        <tr className='font-semibold'>
+                        {/* <tr className='font-semibold'>
                             <td>
                                 <p className="text-start text-[16px] md:text-[24px]">Full Technician Bundle (All 3)</p>
                             </td>
@@ -231,7 +240,7 @@ const Training = () => {
                                     Enroll
                                 </button>
                             </td>
-                        </tr>
+                        </tr> */}
                     </tbody>
                 </table>
             </div>

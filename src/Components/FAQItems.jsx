@@ -10,7 +10,7 @@ function FAQItem({ question, answer, answers,answerTwo }) {
 
   const answerId = `faq-answer-${question.toLowerCase().replace(/\s+/g, '-')}`;
 
-  return (
+  return ( 
     <div className="bg-[#D9E8F4] rounded-xl">
       <div className="p-3 md:p-5 xl:px-[50px] xl:py-[22px] flex justify-between items-center">
         <p className="text-[15px] md:text-[24px] font-semibold">{question}</p>
